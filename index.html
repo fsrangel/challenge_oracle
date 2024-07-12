@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR DE TEXTOS</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="background">
+        <canvas id="matrix"></canvas>
+    </div>
+    <header>
+        <h1 class="animated-header">BEM VINDO AO ENCRIPTADOR DE TEXTOS</h1>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <div class="input-section">
+                <label for="entrada-texto">Digite o texto para encriptar/desencriptar:</label>
+                <textarea id="entrada-texto" name="entrada-texto"></textarea>
+                <div class="buttons">
+                    <button id="cripto-button">CRIPTOGRAFAR</button>
+                    <button id="decripto-button">DESCRIPTOGRAFAR</button>
+                </div>
+            </div>
+        </section>
+        <section class="apresentacao__conteudo">
+            <div class="output-section">
+                <label for="saida-texto">Texto encriptado/desencriptado:</label>
+                <textarea id="saida-texto" name="saida-texto" readonly></textarea>
+                <button id="copiar-button">COPIAR</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Felipe Rangel.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/felipe-rangel-596a1170/"><img src="./assets/linkedinverde.png">LinkedIn</a>
+            <a href="https://github.com/fsrangel"><img src="./assets/gitverde.png">GitHub</a>
+            <a href="https://wa.me/5521999038958"><img src="./assets/zapverde.png">WhatsApp</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
